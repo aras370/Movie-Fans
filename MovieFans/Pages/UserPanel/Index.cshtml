@@ -1,0 +1,50 @@
+﻿@page
+
+@model Presentation.Pages.UserPanel.IndexModel
+@using System.Security.Claims
+
+@*@{
+  var email=User.FindFirst(ClaimTypes.Email).Value.ToString();
+}
+*@
+
+
+    <title>پنل کاربری</title>
+
+    <!-- Bootstrap CSS -->
+   
+
+    <!-- Your custom CSS (if any) -->
+    <!-- <link rel="stylesheet" href="path/to/your/custom.css"> -->
+<body class="bg-light">
+
+    <!-- Navigation Bar -->
+   
+
+   
+
+    <!-- User Information Card -->
+    <div class="container mt-4 bg-light">
+        <div class="card bg-light">
+            <div class="card-body">
+                <h5 class="card-title mb-4">اطلاعات کاربری</h5>
+                <p class="card-text">نام کاربری: @User.Identity.Name</p>
+               <div class="mt-3 mb-3">
+                    <p class="card-text">
+                        عکس:
+
+                        <img src="/UsersAvatars/@User.FindFirst("AvatarName").Value" />
+                    </p>
+
+               </div>
+               
+
+                <p class="card-text">ایمیل: @ViewData["Email"]</p>
+                <a asp-page="Edit" asp-route-userid="@User.FindFirst(ClaimTypes.NameIdentifier).Value" class="btn btn-primary">ویرایش اطلاعات</a>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
