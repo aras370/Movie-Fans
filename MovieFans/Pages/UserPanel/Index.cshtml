@@ -41,6 +41,7 @@
 
                 <p class="card-text">ایمیل: @ViewData["Email"]</p>
                 <a asp-page="Edit" asp-route-userid="@User.FindFirst(ClaimTypes.NameIdentifier).Value" class="btn btn-primary">ویرایش اطلاعات</a>
+                <a asp-page="ChangePassword" asp-route-userid="@User.FindFirst(ClaimTypes.NameIdentifier).Value" class="btn btn-primary">ویرایش کلمه عبور</a>
             </div>
         </div>
     </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Application\\Application.csproj": {}
+    "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Application\\Application.csproj": {
+    "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj"
               },
-              "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,6 +130,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -177,14 +181,14 @@
         }
       }
     },
-    "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -205,8 +209,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj"
               }
             }
           }

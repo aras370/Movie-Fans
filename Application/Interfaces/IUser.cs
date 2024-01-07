@@ -15,5 +15,13 @@ namespace Application.Interfaces
         Task<bool>  IsExistUser(RegisterViewModel user);
 
         Task AddUser(User user);
+
+       Task<EditUserByUserViewModel> GetUserForEditByUser(int userId);
+
+        Task <User> GetUserById(int id);
+
+        Task EditUserByUser(EditUserByUserViewModel user);
+
+        Task ChangePasswordByUser(ChangePasswordViewModel Password);
     }
 }

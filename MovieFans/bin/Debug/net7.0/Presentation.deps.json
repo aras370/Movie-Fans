@@ -611,6 +611,12 @@
           "Microsoft.AspNetCore.Cryptography.Internal": "7.0.0"
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0",
+          "System.IO.Pipelines": "6.0.3"
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "7.0.12",
@@ -2617,6 +2623,7 @@
       },
       "DataLayer/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
@@ -3030,6 +3037,13 @@
       "sha512": "sha512-rCQddWkUxGmObeftM0YVyFOPcXkXDEWKGCc4F1viRLEL4ojIbdKwbOYBSf5hfWDR+NO0aGq8r3a8COvNYN/bZA==",
       "path": "microsoft.aspnetcore.cryptography.keyderivation/7.0.0",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
       "type": "package",

@@ -685,6 +685,23 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -4871,6 +4888,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.7.0.0.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
@@ -11647,6 +11683,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.12",
@@ -11662,11 +11699,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj",
       "projectName": "DataLayer",
-      "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\DataLayer.csproj",
+      "projectPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\DataLayer.csproj",
       "packagesPath": "C:\\Users\\Amazondigi.com\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\پروژه تستی\\DataLayer\\obj\\",
+      "outputPath": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11699,6 +11736,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": {
+            "target": "Package",
+            "version": "[5.0.17, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.0, )"
