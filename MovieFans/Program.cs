@@ -1,5 +1,6 @@
 using DataLayer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Configuration;
 using Microsoft.AspNetCore.Builder;
@@ -14,17 +15,32 @@ using Application.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Optivem.Framework.Core.Domain;
 using DataLayer.Models;
+using Application;
+using Microsoft.Extensions.Logging;
+using Serilog;
 
-namespace HotNews
+namespace MovieFans
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+
+
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+
+
+            Log.Logger = new LoggerConfiguration().MinimumLevel.Debug()
+               .WriteTo.Console().WriteTo.File("Logs/Logs.txt", rollingInterval: RollingInterval.Day)
+               .CreateLogger();
+
+            builder.Host.UseSerilog();
+
+
             builder.Services.AddControllersWithViews();
+
+
 
             builder.Services.AddDbContext<Context>(options =>
             {
@@ -33,49 +49,23 @@ namespace HotNews
                 options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
 
+
             builder.Services.AddScoped<IUser, UserService>();
 
-           // builder.Services.AddIdentity<User, IdentityRole>()
-           //.AddEntityFrameworkStores<Context>()
-           //.AddDefaultTokenProviders();
-
-
-
-           // builder.Services.Configure<IdentityOptions>(options =>
-           // {
-           //     // Password settings
-           //     options.Password.RequireDigit = true;
-           //     options.Password.RequireLowercase = true;
-           //     options.Password.RequireUppercase = true;
-           //     options.Password.RequireNonAlphanumeric = true;
-           //     options.Password.RequiredLength = 8; // Set your desired minimum password length
-
-           //     // Lockout settings
-           //     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
-           //     options.Lockout.MaxFailedAccessAttempts = 5;
-           //     options.Lockout.AllowedForNewUsers = true;
-
-           //     // User settings
-           //     options.User.RequireUniqueEmail = true;
-
-
-
-
-           // });
-
+            builder.Services.AddScoped<IGenre, GenreService>();
 
 
 
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
             {
-                // Cookie settings
+
                 options.Cookie.HttpOnly = true;
                 options.ExpireTimeSpan = TimeSpan.FromDays(30);
                 options.LoginPath = "/Account/Login";
                 options.AccessDeniedPath = "/Account/AccessDenied";
                 options.LogoutPath = "/Account/Logout";
                 options.SlidingExpiration = true;
-                
+
 
             });
 

@@ -1,3 +1,4 @@
+using Application.Interfaces;
 using DataLayer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -10,9 +11,20 @@ namespace Presentation.Pages.UserPanel
     public class IndexModel : PageModel
     {
 
-        public void OnGet()
+        IUser _user;
+
+        public IndexModel(IUser user)
         {
-            ViewData["Email"] = User.FindFirst(ClaimTypes.Email).Value;
+            _user = user;
+        }
+
+        [BindProperty]
+        public User User1{ get; set; } 
+
+        public async Task OnGet()
+        {
+          
+            User1 =await _user.GetUserById(int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value));
         }
 
      

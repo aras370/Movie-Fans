@@ -10,10 +10,14 @@ namespace Presentation.Pages.UserPanel
     {
 
         IUser _user;
+        ILogger<EditModel> _logger;
 
-        public EditModel(IUser user)
+
+        public EditModel(IUser user, ILogger<EditModel> logger)
         {
             _user = user;
+            _logger = logger;
+
         }
 
 
@@ -24,7 +28,7 @@ namespace Presentation.Pages.UserPanel
 
         public async Task OnGet(int userid)
         {
-            User= await _user.GetUserForEditByUser(userid);
+            User = await _user.GetUserForEditByUser(userid);
         }
 
 
@@ -35,12 +39,31 @@ namespace Presentation.Pages.UserPanel
                 return Page();
             }
 
+
+
+
             await _user.EditUserByUser(User);
 
-
-
             return RedirectToPage("Index");
+
+
+            //try
+            //{
+            //    await _user.EditUserByUser(User);
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    _logger.Log(LogLevel.Error, ex.Message);
+            //}
+
+            //return RedirectToPage("Index");
+
+
+
         }
 
     }
 }
+
+

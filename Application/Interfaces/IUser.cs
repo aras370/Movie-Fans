@@ -12,13 +12,13 @@ namespace Application.Interfaces
     {
         Task<User> Login(LoginViewModel login);
 
-        Task<bool>  IsExistUser(RegisterViewModel user);
+        Task<bool> IsExistUser(RegisterViewModel user);
 
         Task AddUser(User user);
 
-       Task<EditUserByUserViewModel> GetUserForEditByUser(int userId);
+        Task<EditUserByUserViewModel> GetUserForEditByUser(int userId);
 
-        Task <User> GetUserById(int id);
+        Task<User> GetUserById(int id);
 
         Task EditUserByUser(EditUserByUserViewModel user);
 

@@ -17,11 +17,26 @@ namespace HotNews.Controllers
 
         public IActionResult Index()
         {
-            
-            return View();
+            try
+            {
+                throw new Exception();
+            }
+            catch 
+            {
+
+               
+
+                _logger.Log(LogLevel.Critical,"لاگ خططططططططططططططااااااااااااا");
+
+                _logger.LogTrace("نداررررررررررررررددددددد");
+
+                return View();
+            }
+          
+
         }
 
-        
+
         public IActionResult Privacy(User user)
         {
             return View();

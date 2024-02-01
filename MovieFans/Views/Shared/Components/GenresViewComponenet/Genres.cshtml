@@ -1,0 +1,19 @@
+﻿@model List<Genre>
+
+<div>
+
+    <h3 class="card-title">ژانرها</h3>
+    <nav class="border">
+
+
+
+        <ul>
+            @foreach (var genre in Model)
+            {
+                <li><a href="#example">@genre.GenreName</a></li>
+
+            }
+        </ul>
+    </nav>
+
+</div>

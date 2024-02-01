@@ -763,3 +763,12 @@ C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\obj\Debug\net7.0\refint\Pre
 C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\obj\Debug\net7.0\Presentation.pdb
 C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\obj\Debug\net7.0\Presentation.genruntimeconfig.cache
 C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\obj\Debug\net7.0\ref\Presentation.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans\bin\Debug\net7.0\Serilog.Sinks.File.dll
