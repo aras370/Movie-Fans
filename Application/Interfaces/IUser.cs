@@ -23,5 +23,7 @@ namespace Application.Interfaces
         Task EditUserByUser(EditUserByUserViewModel user);
 
         Task ChangePasswordByUser(ChangePasswordViewModel Password);
+
+        Task<List<string>> GetAllUserRoles(int userId);
     }
 }

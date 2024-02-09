@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\Presentation.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\Constantine.jpg",
-      "PackagePath": "staticwebassets\\MoviesImages\\Constantine.jpg"
+      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\095d67d2e6fa4403b56d8b18020a8158.jpg",
+      "PackagePath": "staticwebassets\\MoviesImages\\095d67d2e6fa4403b56d8b18020a8158.jpg"
     },
     {
       "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\Lord.jpg",
       "PackagePath": "staticwebassets\\MoviesImages\\Lord.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\NoPhoto.png",
+      "PackagePath": "staticwebassets\\MoviesImages\\NoPhoto.png"
+    },
+    {
+      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\a9ec542e7ad64ca98fd56e37a5321cfa.jpg",
+      "PackagePath": "staticwebassets\\MoviesImages\\a9ec542e7ad64ca98fd56e37a5321cfa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\ff9641f45d2f4a989d8945d271a7535d.jpg",
+      "PackagePath": "staticwebassets\\MoviesImages\\ff9641f45d2f4a989d8945d271a7535d.jpg"
     },
     {
       "Id": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\solomonkane.jpg",

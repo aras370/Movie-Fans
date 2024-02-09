@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Areas/Admin/Views/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Areas/Admin/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Pages/UserPanel/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhbmVsXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Amazondigi.com/Desktop/Movie-Fans/MovieFans/Views/Account/Login.cshtml]

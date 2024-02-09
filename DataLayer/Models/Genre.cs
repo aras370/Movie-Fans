@@ -22,7 +22,7 @@ namespace DataLayer.Models
 
         #region Relations
 
-        public IList<Movie> Movies { get; set; }
+        public List<Movie> Movies { get; set; }
 
         #endregion
 

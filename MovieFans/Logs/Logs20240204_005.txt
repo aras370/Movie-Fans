@@ -1,0 +1,137 @@
+2024-02-04 21:07:21.899 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-04 21:07:22.013 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewImports.cshtml'.
+2024-02-04 21:07:22.017 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewStart.cshtml'.
+2024-02-04 21:07:22.019 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-04 21:07:22.020 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-04 21:07:22.024 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-04 21:07:22.026 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-04 21:07:22.027 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-04 21:07:22.029 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-04 21:07:22.031 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-04 21:07:22.032 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-04 21:07:22.034 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-04 21:07:22.035 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-04 21:07:22.037 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-04 21:07:22.038 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-04 21:07:22.040 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-04 21:07:22.041 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-04 21:07:22.043 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-04 21:07:22.045 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-04 21:07:22.067 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-04 21:07:22.127 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-04 21:07:22.284 +03:30 [DBG] Hosting starting
+2024-02-04 21:07:22.513 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-04 21:07:22.528 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-04 21:07:22.534 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-04 21:07:22.538 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-04 21:07:22.542 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-04 21:07:22.545 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-04 21:07:22.549 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-04 21:07:22.561 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-04 21:07:22.603 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-04 21:07:23.008 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-04 21:07:23.140 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-04 21:07:23.143 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-04 21:07:23.163 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-04 21:07:23.165 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-04 21:07:23.184 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-04 21:07:23.206 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-04 21:07:23.240 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-04 21:07:23.244 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-04 21:07:23.276 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-04 21:07:23.295 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-04 21:07:23.301 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-04 21:07:23.325 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-04 21:07:23.729 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-04 21:07:23.910 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-04 21:07:24.473 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-04 21:07:24.475 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-04 21:07:24.477 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-04 21:07:24.479 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-04 21:07:24.482 +03:30 [INF] Hosting environment: Development
+2024-02-04 21:07:24.484 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-04 21:07:24.486 +03:30 [DBG] Hosting started
+2024-02-04 21:07:41.670 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-04 21:07:45.263 +03:30 [DBG] Entity Framework Core 7.0.12 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: NoTracking 
+2024-02-04 21:07:45.322 +03:30 [DBG] Creating DbConnection.
+2024-02-04 21:07:45.429 +03:30 [DBG] Created DbConnection. (98ms).
+2024-02-04 21:07:45.442 +03:30 [DBG] Migrating using database 'MovieFans' on server '.'.
+2024-02-04 21:07:45.466 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:46.891 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:46.910 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-02-04 21:07:46.927 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (16ms).
+2024-02-04 21:07:46.931 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (30ms).
+2024-02-04 21:07:46.948 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:07:47.008 +03:30 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:07:47.011 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.029 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (10ms).
+2024-02-04 21:07:47.039 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-02-04 21:07:47.039 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:07:47.039 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:07:47.040 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.042 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.043 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:07:47.077 +03:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:07:47.078 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.079 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:07:47.080 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.080 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.081 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-02-04 21:07:47.081 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-02-04 21:07:47.081 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-02-04 21:07:47.081 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:07:47.083 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:07:47.084 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.084 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:07:47.084 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-02-04 21:07:47.084 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:07:47.084 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:07:47.084 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.085 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.085 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:07:47.086 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:07:47.086 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.086 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:07:47.136 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-04 21:07:47.136 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-02-04 21:07:47.137 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-02-04 21:07:47.137 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.137 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.139 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-02-04 21:07:47.143 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-02-04 21:07:47.150 +03:30 [DBG] Closing data reader to 'MovieFans' on server '.'.
+2024-02-04 21:07:47.153 +03:30 [DBG] A data reader for 'MovieFans' on server '.' is being disposed after spending 6ms reading results.
+2024-02-04 21:07:47.154 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.154 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:07:47.179 +03:30 [INF] Applying migration '20240204173115_emovie'.
+2024-02-04 21:07:47.322 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.323 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.326 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-02-04 21:07:47.340 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-02-04 21:07:47.342 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-02-04 21:07:47.343 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-02-04 21:07:47.345 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-02-04 21:07:47.345 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Movies] DROP CONSTRAINT [FK_Movies_Genres_GenreId1];
+2024-02-04 21:07:47.361 +03:30 [ERR] Failed executing DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Movies] DROP CONSTRAINT [FK_Movies_Genres_GenreId1];
+2024-02-04 21:07:47.365 +03:30 [DBG] Disposing transaction.
+2024-02-04 21:07:47.367 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.367 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:07:47.371 +03:30 [DBG] 'Context' disposed.
+2024-02-04 21:07:47.377 +03:30 [DBG] Disposing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:07:47.380 +03:30 [DBG] Disposed connection to database '' on server '' (3ms).

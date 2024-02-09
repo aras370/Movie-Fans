@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20231217075838_addtest")]
-    partial class addtest
+    [Migration("20240204175416_dsfxgrb")]
+    partial class dsfxgrb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,10 +81,7 @@ namespace DataLayer.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("int");
 
-                    b.Property<string>("GenreId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("GenreId1")
+                    b.Property<int>("GenreId")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")
@@ -98,7 +95,7 @@ namespace DataLayer.Migrations
 
                     b.HasKey("MovieId");
 
-                    b.HasIndex("GenreId1");
+                    b.HasIndex("GenreId");
 
                     b.ToTable("Movies");
                 });
@@ -193,22 +190,6 @@ namespace DataLayer.Migrations
                     b.ToTable("RolePermissions");
                 });
 
-            modelBuilder.Entity("DataLayer.Models.Test", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("id");
-
-                    b.ToTable("Tests");
-                });
-
             modelBuilder.Entity("DataLayer.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -292,7 +273,9 @@ namespace DataLayer.Migrations
                 {
                     b.HasOne("DataLayer.Models.Genre", "Genre")
                         .WithMany("Movies")
-                        .HasForeignKey("GenreId1");
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Genre");
                 });

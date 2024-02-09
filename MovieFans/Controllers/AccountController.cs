@@ -7,6 +7,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using System.Text.RegularExpressions;
 using DataLayer.Models;
+using DataLayer;
 
 namespace Presentation.Controllers
 {
@@ -16,9 +17,12 @@ namespace Presentation.Controllers
 
         IUser _user;
 
+
+
         public AccountController(IUser user)
         {
             _user = user;
+
         }
 
         public IActionResult Login()
@@ -40,21 +44,26 @@ namespace Presentation.Controllers
             if (user == null)
             {
                 ModelState.AddModelError("username", "کاربری با مشخصات داده شده یافت نشد");
-                
+
                 return View();
             }
 
+            var roles = await _user.GetAllUserRoles(user.UserId);
 
-            var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.NameIdentifier, user.UserId .ToString()),
-                        new Claim(ClaimTypes.Name , user.UserName),
-                        new Claim(ClaimTypes.Email , user.Email),
-                        new Claim("AvatarName",user.AvatarName)
+            var claims = new List<Claim>();
+           
 
-                        //new Claim(ClaimTypes.Role , user.Email),
+            claims.Add(new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()));
+            claims.Add(new Claim(ClaimTypes.Name, user.UserName));
+            claims.Add(new Claim(ClaimTypes.Email, user.Email));
 
-                    };
+            foreach (var item in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, item));
+
+            }
+
+
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
@@ -68,7 +77,7 @@ namespace Presentation.Controllers
 
             await HttpContext.SignInAsync(principal, properties);
 
-            
+
 
             return RedirectToPage("/UserPanel/Index");
         }
@@ -81,11 +90,11 @@ namespace Presentation.Controllers
 
         public IActionResult Register()
         {
-            return  View();
+            return View();
         }
 
 
-        [HttpPost]        
+        [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (!ModelState.IsValid)
@@ -108,11 +117,11 @@ namespace Presentation.Controllers
 
             User user = new User()
             {
-                UserName=model.UserName,
-                Password=model.Password,
-                AvatarName="Default.jpg",
-                Email=model.Email,
-                IsAdmin=false
+                UserName = model.UserName,
+                Password = model.Password,
+                AvatarName = "Default.jpg",
+                Email = model.Email,
+                IsAdmin = false
             };
 
             await _user.AddUser(user);
@@ -120,7 +129,12 @@ namespace Presentation.Controllers
             return View("SuccessFullRegister");
         }
 
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
     }
 
-    
+
 }

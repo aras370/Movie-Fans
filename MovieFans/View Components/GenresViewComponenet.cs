@@ -15,8 +15,8 @@ namespace Presentation
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var genres=await _genre.GetAllGenres();
-            return await Task.FromResult((IViewComponentResult)View("Genres",genres));
+            var genres = await _genre.GetAllGenres();
+            return await Task.FromResult((IViewComponentResult)View("Genres", genres));
         }
 
     }

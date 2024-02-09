@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+nfaR37PTEQADCZF5HDYtgncCqzfGoemFhH75LbuLGk=",
+  "Hash": "Kg+aV/cuyKZ1FriOBuvSS5YH4H4u51eiYaSKXO+HQf8=",
   "Source": "Presentation",
   "BasePath": "_content/Presentation",
   "Mode": "Default",
@@ -1071,12 +1071,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\Constantine.jpg",
+      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\095d67d2e6fa4403b56d8b18020a8158.jpg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\",
       "BasePath": "_content/Presentation",
-      "RelativePath": "MoviesImages/Constantine.jpg",
+      "RelativePath": "MoviesImages/095d67d2e6fa4403b56d8b18020a8158.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,7 +1085,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\MoviesImages\\Constantine.jpg"
+      "OriginalItemSpec": "wwwroot\\MoviesImages\\095d67d2e6fa4403b56d8b18020a8158.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\a9ec542e7ad64ca98fd56e37a5321cfa.jpg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "MoviesImages/a9ec542e7ad64ca98fd56e37a5321cfa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MoviesImages\\a9ec542e7ad64ca98fd56e37a5321cfa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\ff9641f45d2f4a989d8945d271a7535d.jpg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "MoviesImages/ff9641f45d2f4a989d8945d271a7535d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MoviesImages\\ff9641f45d2f4a989d8945d271a7535d.jpg"
     },
     {
       "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\Lord.jpg",
@@ -1103,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\MoviesImages\\Lord.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\NoPhoto.png",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "MoviesImages/NoPhoto.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MoviesImages\\NoPhoto.png"
     },
     {
       "Identity": "C:\\Users\\Amazondigi.com\\Desktop\\Movie-Fans\\MovieFans\\wwwroot\\MoviesImages\\solomonkane.jpg",

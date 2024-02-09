@@ -1,0 +1,87 @@
+2024-02-04 21:08:55.242 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-04 21:08:57.690 +03:30 [DBG] Entity Framework Core 7.0.12 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: NoTracking 
+2024-02-04 21:08:58.427 +03:30 [DBG] 'Context' disposed.
+2024-02-04 21:09:13.777 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-04 21:09:15.914 +03:30 [DBG] Entity Framework Core 7.0.12 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: NoTracking 
+2024-02-04 21:09:15.987 +03:30 [DBG] Creating DbConnection.
+2024-02-04 21:09:16.074 +03:30 [DBG] Created DbConnection. (79ms).
+2024-02-04 21:09:16.085 +03:30 [DBG] Migrating using database 'MovieFans' on server '.'.
+2024-02-04 21:09:16.099 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.453 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.465 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-02-04 21:09:17.476 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (10ms).
+2024-02-04 21:09:17.480 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (20ms).
+2024-02-04 21:09:17.496 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:09:17.539 +03:30 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:09:17.543 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.561 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (10ms).
+2024-02-04 21:09:17.567 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-02-04 21:09:17.568 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:09:17.568 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:09:17.568 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.570 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.571 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:09:17.608 +03:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:09:17.609 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.610 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (1ms).
+2024-02-04 21:09:17.612 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.612 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.612 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-02-04 21:09:17.613 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-02-04 21:09:17.613 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-02-04 21:09:17.613 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:09:17.615 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-04 21:09:17.615 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.615 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:09:17.616 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-02-04 21:09:17.616 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:09:17.616 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-02-04 21:09:17.616 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.617 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.617 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:09:17.618 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-04 21:09:17.618 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.618 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:09:17.659 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-04 21:09:17.659 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-02-04 21:09:17.659 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-02-04 21:09:17.659 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.659 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.661 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-02-04 21:09:17.663 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-02-04 21:09:17.668 +03:30 [DBG] Closing data reader to 'MovieFans' on server '.'.
+2024-02-04 21:09:17.670 +03:30 [DBG] A data reader for 'MovieFans' on server '.' is being disposed after spending 4ms reading results.
+2024-02-04 21:09:17.671 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.671 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:09:17.689 +03:30 [INF] Applying migration '20240204173115_emovie'.
+2024-02-04 21:09:17.805 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.805 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.809 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-02-04 21:09:17.819 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-02-04 21:09:17.821 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-02-04 21:09:17.821 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-02-04 21:09:17.824 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-02-04 21:09:17.824 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Movies] DROP CONSTRAINT [FK_Movies_Genres_GenreId1];
+2024-02-04 21:09:17.831 +03:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Movies] DROP CONSTRAINT [FK_Movies_Genres_GenreId1];
+2024-02-04 21:09:17.833 +03:30 [DBG] Disposing transaction.
+2024-02-04 21:09:17.834 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.835 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (0ms).
+2024-02-04 21:09:17.838 +03:30 [DBG] 'Context' disposed.
+2024-02-04 21:09:17.841 +03:30 [DBG] Disposing connection to database 'MovieFans' on server '.'.
+2024-02-04 21:09:17.844 +03:30 [DBG] Disposed connection to database '' on server '' (2ms).

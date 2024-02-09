@@ -78,10 +78,7 @@ namespace DataLayer.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("int");
 
-                    b.Property<string>("GenreId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("GenreId1")
+                    b.Property<int>("GenreId")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")
@@ -95,7 +92,7 @@ namespace DataLayer.Migrations
 
                     b.HasKey("MovieId");
 
-                    b.HasIndex("GenreId1");
+                    b.HasIndex("GenreId");
 
                     b.ToTable("Movies");
                 });
@@ -121,22 +118,6 @@ namespace DataLayer.Migrations
                     b.HasIndex("MovieId");
 
                     b.ToTable("MovieCasts");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.Permission", b =>
-                {
-                    b.Property<int>("PermissionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PermissionId"));
-
-                    b.Property<string>("PermissionName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("PermissionId");
-
-                    b.ToTable("Permissions");
                 });
 
             modelBuilder.Entity("DataLayer.Models.Role", b =>
@@ -165,29 +146,6 @@ namespace DataLayer.Migrations
                             RoleId = 2,
                             RoleName = "User"
                         });
-                });
-
-            modelBuilder.Entity("DataLayer.Models.RolePermission", b =>
-                {
-                    b.Property<int>("RpId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RpId"));
-
-                    b.Property<int>("PermissionId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
-                    b.HasKey("RpId");
-
-                    b.HasIndex("PermissionId");
-
-                    b.HasIndex("RoleId");
-
-                    b.ToTable("RolePermissions");
                 });
 
             modelBuilder.Entity("DataLayer.Models.User", b =>
@@ -273,7 +231,9 @@ namespace DataLayer.Migrations
                 {
                     b.HasOne("DataLayer.Models.Genre", "Genre")
                         .WithMany("Movies")
-                        .HasForeignKey("GenreId1");
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Genre");
                 });
@@ -287,25 +247,6 @@ namespace DataLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Movie");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.RolePermission", b =>
-                {
-                    b.HasOne("DataLayer.Models.Permission", "Permission")
-                        .WithMany("RolePermission")
-                        .HasForeignKey("PermissionId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("DataLayer.Models.Role", "Role")
-                        .WithMany("RolePermission")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Permission");
-
-                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("DataLayer.Models.UserRole", b =>
@@ -337,15 +278,8 @@ namespace DataLayer.Migrations
                     b.Navigation("MovieCasts");
                 });
 
-            modelBuilder.Entity("DataLayer.Models.Permission", b =>
-                {
-                    b.Navigation("RolePermission");
-                });
-
             modelBuilder.Entity("DataLayer.Models.Role", b =>
                 {
-                    b.Navigation("RolePermission");
-
                     b.Navigation("UserRoles");
                 });
 

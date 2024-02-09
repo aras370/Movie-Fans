@@ -23,8 +23,9 @@ namespace Presentation.Pages.UserPanel
 
         public async Task OnGet()
         {
-          
-            User1 =await _user.GetUserById(int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value));
+            ViewData["roles"]=await _user.GetAllUserRoles(int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value));
+
+            User1 = await _user.GetUserById(int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value));
         }
 
      

@@ -16,7 +16,6 @@ namespace DataLayer.Models
 
         #region Relations
 
-        public IList<RolePermission> RolePermission { get; set; }
 
         public IList<UserRole> UserRoles { get; set; }
 

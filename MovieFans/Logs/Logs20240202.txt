@@ -1,0 +1,658 @@
+2024-02-02 13:05:44.961 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-02 13:05:45.098 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-02 13:05:45.101 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-02 13:05:45.104 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-02 13:05:45.107 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-02 13:05:45.110 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-02 13:05:45.113 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-02 13:05:45.116 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-02 13:05:45.119 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-02 13:05:45.122 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-02 13:05:45.125 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-02 13:05:45.128 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-02 13:05:45.131 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-02 13:05:45.133 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-02 13:05:45.136 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-02 13:05:45.140 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-02 13:05:45.143 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-02 13:05:45.191 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-02 13:05:45.311 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 13:05:45.613 +03:30 [DBG] Hosting starting
+2024-02-02 13:05:45.628 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-02 13:05:45.676 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-02 13:05:45.683 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-02 13:05:45.688 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-02 13:05:45.693 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-02 13:05:45.698 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-02 13:05:45.702 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-02 13:05:45.720 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-02 13:05:45.772 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-02 13:05:45.783 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-02 13:05:45.791 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-02 13:05:45.798 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-02 13:05:45.805 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-02 13:05:45.812 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-02 13:05:45.846 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-02 13:05:45.881 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:05:45.897 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-02 13:05:45.906 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:05:45.921 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-02 13:05:45.931 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-02 13:05:45.946 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-02 13:05:46.415 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-02 13:05:47.938 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-02 13:05:48.036 +03:30 [DBG] Connection id "0HN13Q9B798HH" accepted.
+2024-02-02 13:05:48.072 +03:30 [DBG] Connection id "0HN13Q9B798HH" received FIN.
+2024-02-02 13:05:49.209 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-02 13:05:50.733 +03:30 [DBG] Connection id "0HN13Q9B798HI" accepted.
+2024-02-02 13:05:50.747 +03:30 [DBG] Connection id "0HN13Q9B798HH" started.
+2024-02-02 13:05:50.785 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-02 13:05:50.813 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-02 13:05:50.816 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-02 13:05:50.796 +03:30 [DBG] Connection id "0HN13Q9B798HI" started.
+2024-02-02 13:05:50.896 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-02-02 13:05:50.902 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 13:05:51.040 +03:30 [DBG] Connection id "0HN13Q9B798HH" stopped.
+2024-02-02 13:05:51.041 +03:30 [DBG] Connection 0HN13Q9B798HI established using the following protocol: "Tls12"
+2024-02-02 13:05:51.083 +03:30 [INF] Hosting environment: Development
+2024-02-02 13:05:51.099 +03:30 [DBG] Connection id "0HN13Q9B798HH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-02 13:05:51.138 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-02 13:05:51.178 +03:30 [DBG] Hosting started
+2024-02-02 13:05:51.449 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/ - -
+2024-02-02 13:05:51.640 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-02 13:05:51.695 +03:30 [DBG] The request path / does not match a supported file type
+2024-02-02 13:05:51.869 +03:30 [DBG] 1 candidate(s) found for the request path '/'
+2024-02-02 13:05:52.382 +03:30 [DBG] Endpoint 'HotNews.Controllers.HomeController.Index (Presentation)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-02-02 13:05:52.393 +03:30 [DBG] Request matched endpoint 'HotNews.Controllers.HomeController.Index (Presentation)'
+2024-02-02 13:05:52.460 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:05:52.480 +03:30 [INF] Executing endpoint 'HotNews.Controllers.HomeController.Index (Presentation)'
+2024-02-02 13:05:52.591 +03:30 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HotNews.Controllers.HomeController (Presentation).
+2024-02-02 13:05:52.606 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-02 13:05:52.612 +03:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:05:52.618 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-02 13:05:52.625 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-02 13:05:52.631 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:05:52.648 +03:30 [DBG] Executing controller factory for controller HotNews.Controllers.HomeController (Presentation)
+2024-02-02 13:05:52.661 +03:30 [DBG] Executed controller factory for controller HotNews.Controllers.HomeController (Presentation)
+2024-02-02 13:05:52.670 +03:30 [FTL] لاگ خططططططططططططططااااااااااااا
+2024-02-02 13:05:52.683 +03:30 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-02-02 13:05:52.711 +03:30 [INF] Executing ViewResult, running view Index.
+2024-02-02 13:05:52.725 +03:30 [DBG] The view path '/Views/Home/Index.cshtml' was found in 34.4676ms.
+2024-02-02 13:05:52.798 +03:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-02-02 13:05:53.123 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-02-02 13:05:53.230 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:05:53.250 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-02-02 13:05:53.421 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-02-02 13:05:53.438 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-02-02 13:05:53.444 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:05:53.452 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-02-02 13:05:53.456 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-02-02 13:05:53.464 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Login],controller=[Account])
+2024-02-02 13:05:53.468 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Login", "area": "", "controller": "Account" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:05:53.479 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2024-02-02 13:05:53.484 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2024-02-02 13:05:53.492 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2024-02-02 13:05:53.497 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Register", "controller": "Account" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:05:53.562 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Register and 
+2024-02-02 13:05:53.569 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Register
+2024-02-02 13:05:54.062 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-02 13:05:54.243 +03:30 [DBG] Executing view component Presentation.GenresViewComponenet with arguments ([]).
+2024-02-02 13:05:55.444 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.460 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.469 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.480 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.488 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.505 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.529 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.537 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.545 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.553 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.569 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.598 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.643 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.650 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.660 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.671 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.678 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.687 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.696 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.706 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:55.791 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:05:56.152 +03:30 [WRN] The foreign key property 'Movie.GenreId1' was created in shadow state because a conflicting property with the simple name 'GenreId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-02-02 13:05:56.547 +03:30 [DBG] Entity Framework Core 7.0.12 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: NoTracking 
+2024-02-02 13:05:56.684 +03:30 [DBG] Compiling query expression: 
+'DbSet<Genre>()'
+2024-02-02 13:05:57.019 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Genre>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Genre.GenreId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Genre.GenreName (string) Required MaxLength(30), 1] }
+        SELECT g.GenreId, g.GenreName
+        FROM Genres AS g), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Genre>, 
+    DataLayer.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-02-02 13:05:57.113 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-02 13:05:57.121 +03:30 [DBG] Creating DbConnection.
+2024-02-02 13:05:57.175 +03:30 [DBG] Created DbConnection. (47ms).
+2024-02-02 13:05:57.196 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (80ms).
+2024-02-02 13:05:57.203 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (95ms).
+2024-02-02 13:05:57.219 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-02 13:05:58.631 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-02 13:05:58.653 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[GenreId], [g].[GenreName]
+FROM [Genres] AS [g]
+2024-02-02 13:05:58.753 +03:30 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[GenreId], [g].[GenreName]
+FROM [Genres] AS [g]
+2024-02-02 13:05:58.797 +03:30 [DBG] Closing data reader to 'MovieFans' on server '.'.
+2024-02-02 13:05:58.814 +03:30 [DBG] A data reader for 'MovieFans' on server '.' is being disposed after spending 43ms reading results.
+2024-02-02 13:05:58.826 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-02 13:05:58.840 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (14ms).
+2024-02-02 13:05:58.853 +03:30 [DBG] Executed view component Presentation.GenresViewComponenet in 4600.3192ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-02-02 13:05:58.860 +03:30 [DBG] View lookup cache miss for view 'Components/GenresViewComponenet/Genres' in controller 'Home'.
+2024-02-02 13:05:59.057 +03:30 [INF] Executed ViewResult - view Index executed in 6377.3843ms.
+2024-02-02 13:05:59.067 +03:30 [INF] Executed action HotNews.Controllers.HomeController.Index (Presentation) in 6425.9114ms
+2024-02-02 13:05:59.073 +03:30 [INF] Executed endpoint 'HotNews.Controllers.HomeController.Index (Presentation)'
+2024-02-02 13:05:59.101 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-02 13:05:59.148 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-02 13:05:59.159 +03:30 [DBG] 'Context' disposed.
+2024-02-02 13:05:59.175 +03:30 [DBG] Disposing connection to database 'MovieFans' on server '.'.
+2024-02-02 13:05:59.177 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/HotNews.styles.css - -
+2024-02-02 13:05:59.187 +03:30 [DBG] The request path /HotNews.styles.css does not match an existing file
+2024-02-02 13:05:59.189 +03:30 [DBG] Disposed connection to database '' on server '' (13ms).
+2024-02-02 13:05:59.193 +03:30 [DBG] 1 candidate(s) found for the request path '/HotNews.styles.css'
+2024-02-02 13:05:59.201 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/ - - - 200 - text/html;+charset=utf-8 7775.5900ms
+2024-02-02 13:05:59.205 +03:30 [DBG] Endpoint 'HotNews.Controllers.HomeController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' was rejected by constraint 'area':'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint' with value 'HotNews.styles.css' for the request path '/HotNews.styles.css'
+2024-02-02 13:05:59.214 +03:30 [DBG] Endpoint 'HotNews.Controllers.HomeController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' is not valid for the request path '/HotNews.styles.css'
+2024-02-02 13:05:59.219 +03:30 [DBG] Request did not match any endpoints
+2024-02-02 13:05:59.225 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:05:59.231 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/HotNews.styles.css - - - 404 0 - 53.2861ms
+2024-02-02 13:05:59.277 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 13:05:59.278 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - -
+2024-02-02 13:05:59.292 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 14.7468ms
+2024-02-02 13:05:59.428 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 149.5820ms
+2024-02-02 13:06:32.571 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/Admin/Movies - -
+2024-02-02 13:06:32.577 +03:30 [DBG] The request path /Admin/Movies does not match a supported file type
+2024-02-02 13:06:32.584 +03:30 [DBG] 1 candidate(s) found for the request path '/Admin/Movies'
+2024-02-02 13:06:32.590 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' was rejected by constraint 'area':'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint' with value 'Admin' for the request path '/Admin/Movies'
+2024-02-02 13:06:32.599 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' is not valid for the request path '/Admin/Movies'
+2024-02-02 13:06:32.603 +03:30 [DBG] Request did not match any endpoints
+2024-02-02 13:06:32.612 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:06:32.617 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/Admin/Movies - - - 404 0 - 46.0309ms
+2024-02-02 13:06:54.297 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/Admin/Movies/Index - -
+2024-02-02 13:06:54.312 +03:30 [DBG] The request path /Admin/Movies/Index does not match a supported file type
+2024-02-02 13:06:54.323 +03:30 [DBG] 1 candidate(s) found for the request path '/Admin/Movies/Index'
+2024-02-02 13:06:54.327 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' was rejected by constraint 'area':'Microsoft.AspNetCore.Mvc.Routing.KnownRouteValueConstraint' with value 'Admin' for the request path '/Admin/Movies/Index'
+2024-02-02 13:06:54.339 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' is not valid for the request path '/Admin/Movies/Index'
+2024-02-02 13:06:54.344 +03:30 [DBG] Request did not match any endpoints
+2024-02-02 13:06:54.347 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:06:54.353 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/Admin/Movies/Index - - - 404 0 - 56.0055ms
+2024-02-02 13:07:37.260 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-02 13:07:37.446 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-02 13:07:37.450 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-02 13:07:37.453 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-02 13:07:37.455 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-02 13:07:37.461 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-02 13:07:37.464 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-02 13:07:37.468 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-02 13:07:37.472 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-02 13:07:37.476 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-02 13:07:37.479 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-02 13:07:37.481 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-02 13:07:37.485 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-02 13:07:37.489 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-02 13:07:37.492 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-02 13:07:37.495 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-02 13:07:37.499 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-02 13:07:37.539 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-02 13:07:37.682 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 13:07:38.039 +03:30 [DBG] Hosting starting
+2024-02-02 13:07:38.182 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-02 13:07:38.243 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-02 13:07:38.251 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-02 13:07:38.260 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-02 13:07:38.268 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-02 13:07:38.275 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-02 13:07:38.285 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-02 13:07:38.308 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-02 13:07:38.325 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-02 13:07:38.328 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-02 13:07:38.331 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-02 13:07:38.334 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-02 13:07:38.343 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-02 13:07:38.347 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-02 13:07:38.388 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-02 13:07:38.422 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:07:38.432 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-02 13:07:38.489 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:07:38.506 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-02 13:07:38.518 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-02 13:07:38.524 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-02 13:07:38.527 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-02 13:07:38.773 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-02 13:07:38.777 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-02 13:07:38.781 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-02 13:07:38.785 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-02 13:07:38.788 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-02 13:07:38.792 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 13:07:38.795 +03:30 [INF] Hosting environment: Development
+2024-02-02 13:07:38.798 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-02 13:07:38.801 +03:30 [DBG] Hosting started
+2024-02-02 13:07:44.219 +03:30 [DBG] Connection id "0HN13QADR9JEB" accepted.
+2024-02-02 13:07:44.230 +03:30 [DBG] Connection id "0HN13QADR9JEB" started.
+2024-02-02 13:07:44.396 +03:30 [DBG] Connection 0HN13QADR9JEB established using the following protocol: "Tls12"
+2024-02-02 13:07:44.571 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/Admin/Movies/Index - -
+2024-02-02 13:07:44.646 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-02 13:07:44.656 +03:30 [DBG] The request path /Admin/Movies/Index does not match a supported file type
+2024-02-02 13:07:44.764 +03:30 [DBG] 1 candidate(s) found for the request path '/Admin/Movies/Index'
+2024-02-02 13:07:44.780 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Admin/Movies/Index'
+2024-02-02 13:07:44.790 +03:30 [DBG] Request matched endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:07:44.828 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:07:44.842 +03:30 [INF] Executing endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:07:44.924 +03:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Movies", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation).
+2024-02-02 13:07:44.934 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-02 13:07:44.941 +03:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:07:44.947 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-02 13:07:44.954 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-02 13:07:44.960 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:07:44.969 +03:30 [DBG] Executing controller factory for controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation)
+2024-02-02 13:07:44.978 +03:30 [DBG] Executed controller factory for controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation)
+2024-02-02 13:07:44.992 +03:30 [DBG] View lookup cache miss for view 'Index' in controller 'Movies'.
+2024-02-02 13:07:45.010 +03:30 [INF] Executing ViewResult, running view Index.
+2024-02-02 13:07:45.024 +03:30 [DBG] The view path '/Areas/Admin/Views/Movies/Index.cshtml' was found in 25.9521ms.
+2024-02-02 13:07:45.078 +03:30 [INF] Executed ViewResult - view Index executed in 89.8785ms.
+2024-02-02 13:07:45.084 +03:30 [INF] Executed action Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation) in 118.3729ms
+2024-02-02 13:07:45.092 +03:30 [INF] Executed endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:07:45.112 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/Admin/Movies/Index - - - 200 0 text/html;+charset=utf-8 549.0880ms
+2024-02-02 13:14:49.311 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-02 13:14:49.538 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-02 13:14:49.544 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-02 13:14:49.548 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-02 13:14:49.559 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-02 13:14:49.562 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-02 13:14:49.569 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-02 13:14:49.574 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-02 13:14:49.582 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-02 13:14:49.587 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-02 13:14:49.590 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-02 13:14:49.593 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-02 13:14:49.603 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-02 13:14:49.609 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-02 13:14:49.624 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-02 13:14:49.629 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-02 13:14:49.636 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-02 13:14:49.679 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-02 13:14:49.802 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 13:14:50.013 +03:30 [DBG] Hosting starting
+2024-02-02 13:14:50.026 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-02 13:14:50.054 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-02 13:14:50.060 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-02 13:14:50.068 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-02 13:14:50.074 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-02 13:14:50.083 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-02 13:14:50.088 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-02 13:14:50.107 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-02 13:14:50.121 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-02 13:14:50.127 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-02 13:14:50.130 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-02 13:14:50.135 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-02 13:14:50.141 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-02 13:14:50.146 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-02 13:14:50.174 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-02 13:14:50.187 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:14:50.200 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-02 13:14:50.211 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:14:50.226 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-02 13:14:50.237 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-02 13:14:50.243 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-02 13:14:50.248 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-02 13:14:50.513 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-02 13:14:50.518 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-02 13:14:50.526 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-02 13:14:50.530 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-02 13:14:50.535 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-02 13:14:50.545 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 13:14:50.550 +03:30 [INF] Hosting environment: Development
+2024-02-02 13:14:50.556 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-02 13:14:50.561 +03:30 [DBG] Hosting started
+2024-02-02 13:14:50.735 +03:30 [DBG] Connection id "0HN13QECURN7L" accepted.
+2024-02-02 13:14:50.741 +03:30 [DBG] Connection id "0HN13QECURN7L" received FIN.
+2024-02-02 13:14:50.799 +03:30 [DBG] Connection id "0HN13QECURN7L" started.
+2024-02-02 13:14:50.912 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-02-02 13:14:51.135 +03:30 [DBG] Connection id "0HN13QECURN7M" accepted.
+2024-02-02 13:14:51.306 +03:30 [DBG] Connection id "0HN13QECURN7M" started.
+2024-02-02 13:14:51.321 +03:30 [DBG] Connection id "0HN13QECURN7L" stopped.
+2024-02-02 13:14:51.334 +03:30 [DBG] Connection id "0HN13QECURN7L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-02 13:14:51.422 +03:30 [DBG] Connection 0HN13QECURN7M established using the following protocol: "Tls12"
+2024-02-02 13:14:51.593 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/ - -
+2024-02-02 13:14:51.663 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-02 13:14:51.674 +03:30 [DBG] The request path / does not match a supported file type
+2024-02-02 13:14:51.757 +03:30 [DBG] 1 candidate(s) found for the request path '/'
+2024-02-02 13:14:51.768 +03:30 [DBG] Endpoint 'HotNews.Controllers.HomeController.Index (Presentation)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-02-02 13:14:51.775 +03:30 [DBG] Request matched endpoint 'HotNews.Controllers.HomeController.Index (Presentation)'
+2024-02-02 13:14:51.812 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:14:51.821 +03:30 [INF] Executing endpoint 'HotNews.Controllers.HomeController.Index (Presentation)'
+2024-02-02 13:14:51.888 +03:30 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller HotNews.Controllers.HomeController (Presentation).
+2024-02-02 13:14:51.900 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-02 13:14:51.909 +03:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:14:51.916 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-02 13:14:51.925 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-02 13:14:51.930 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:14:51.947 +03:30 [DBG] Executing controller factory for controller HotNews.Controllers.HomeController (Presentation)
+2024-02-02 13:14:51.955 +03:30 [DBG] Executed controller factory for controller HotNews.Controllers.HomeController (Presentation)
+2024-02-02 13:14:51.961 +03:30 [FTL] لاگ خططططططططططططططااااااااااااا
+2024-02-02 13:14:51.975 +03:30 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-02-02 13:14:51.999 +03:30 [INF] Executing ViewResult, running view Index.
+2024-02-02 13:14:52.010 +03:30 [DBG] The view path '/Views/Home/Index.cshtml' was found in 29.8351ms.
+2024-02-02 13:14:52.066 +03:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-02-02 13:14:52.258 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-02-02 13:14:52.303 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:14:52.325 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-02-02 13:14:52.339 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-02-02 13:14:52.366 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-02-02 13:14:52.375 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:14:52.393 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-02-02 13:14:52.413 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-02-02 13:14:52.426 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Login],controller=[Account])
+2024-02-02 13:14:52.438 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Login", "area": "", "controller": "Account" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:14:52.453 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2024-02-02 13:14:52.464 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2024-02-02 13:14:52.478 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2024-02-02 13:14:52.487 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "controller": "Home" } and { "action": "Register", "controller": "Account" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:14:52.504 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Register and 
+2024-02-02 13:14:52.516 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Register
+2024-02-02 13:14:52.819 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-02 13:14:52.897 +03:30 [DBG] Executing view component Presentation.GenresViewComponenet with arguments ([]).
+2024-02-02 13:14:53.710 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.732 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.745 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.759 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.774 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.788 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.805 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.818 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.829 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.844 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.855 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.882 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.928 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.938 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.946 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.962 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.974 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.987 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:53.996 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:54.009 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:54.086 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:14:54.382 +03:30 [WRN] The foreign key property 'Movie.GenreId1' was created in shadow state because a conflicting property with the simple name 'GenreId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-02-02 13:14:54.727 +03:30 [DBG] Entity Framework Core 7.0.12 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: NoTracking 
+2024-02-02 13:14:54.840 +03:30 [DBG] Compiling query expression: 
+'DbSet<Genre>()'
+2024-02-02 13:14:55.135 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Genre>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Genre.GenreId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Genre.GenreName (string) Required MaxLength(30), 1] }
+        SELECT g.GenreId, g.GenreName
+        FROM Genres AS g), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Genre>, 
+    DataLayer.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-02-02 13:14:55.226 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-02 13:14:55.234 +03:30 [DBG] Creating DbConnection.
+2024-02-02 13:14:55.280 +03:30 [DBG] Created DbConnection. (40ms).
+2024-02-02 13:14:55.304 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (72ms).
+2024-02-02 13:14:55.313 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (89ms).
+2024-02-02 13:14:55.328 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-02 13:14:56.922 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-02 13:14:56.963 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[GenreId], [g].[GenreName]
+FROM [Genres] AS [g]
+2024-02-02 13:14:57.074 +03:30 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[GenreId], [g].[GenreName]
+FROM [Genres] AS [g]
+2024-02-02 13:14:57.135 +03:30 [DBG] Closing data reader to 'MovieFans' on server '.'.
+2024-02-02 13:14:57.159 +03:30 [DBG] A data reader for 'MovieFans' on server '.' is being disposed after spending 58ms reading results.
+2024-02-02 13:14:57.174 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-02 13:14:57.195 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (20ms).
+2024-02-02 13:14:57.215 +03:30 [DBG] Executed view component Presentation.GenresViewComponenet in 4305.2129ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-02-02 13:14:57.227 +03:30 [DBG] View lookup cache miss for view 'Components/GenresViewComponenet/Genres' in controller 'Home'.
+2024-02-02 13:14:57.397 +03:30 [INF] Executed ViewResult - view Index executed in 5424.3539ms.
+2024-02-02 13:14:57.411 +03:30 [INF] Executed action HotNews.Controllers.HomeController.Index (Presentation) in 5468.2349ms
+2024-02-02 13:14:57.415 +03:30 [INF] Executed endpoint 'HotNews.Controllers.HomeController.Index (Presentation)'
+2024-02-02 13:14:57.438 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-02 13:14:57.494 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-02 13:14:57.519 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/HotNews.styles.css - -
+2024-02-02 13:14:57.526 +03:30 [DBG] The request path /HotNews.styles.css does not match an existing file
+2024-02-02 13:14:57.530 +03:30 [DBG] 'Context' disposed.
+2024-02-02 13:14:57.541 +03:30 [DBG] No candidates found for the request path '/HotNews.styles.css'
+2024-02-02 13:14:57.551 +03:30 [DBG] Request did not match any endpoints
+2024-02-02 13:14:57.560 +03:30 [DBG] Disposing connection to database 'MovieFans' on server '.'.
+2024-02-02 13:14:57.561 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:14:57.581 +03:30 [DBG] Disposed connection to database '' on server '' (17ms).
+2024-02-02 13:14:57.596 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 13:14:57.591 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/HotNews.styles.css - - - 404 0 - 71.3119ms
+2024-02-02 13:14:57.603 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/ - - - 200 - text/html;+charset=utf-8 6025.4085ms
+2024-02-02 13:14:57.612 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - -
+2024-02-02 13:14:57.628 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 31.7719ms
+2024-02-02 13:14:57.689 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.9081ms
+2024-02-02 13:15:04.461 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/Admin/Movies/Index - -
+2024-02-02 13:15:04.472 +03:30 [DBG] The request path /Admin/Movies/Index does not match a supported file type
+2024-02-02 13:15:04.480 +03:30 [DBG] 1 candidate(s) found for the request path '/Admin/Movies/Index'
+2024-02-02 13:15:04.485 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Admin/Movies/Index'
+2024-02-02 13:15:04.497 +03:30 [DBG] Request matched endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:15:04.508 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:15:04.511 +03:30 [INF] Executing endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:15:04.518 +03:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Movies", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation).
+2024-02-02 13:15:04.526 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-02 13:15:04.531 +03:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:15:04.540 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-02 13:15:04.549 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-02 13:15:04.555 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:15:04.561 +03:30 [DBG] Executing controller factory for controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation)
+2024-02-02 13:15:04.569 +03:30 [DBG] Executed controller factory for controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation)
+2024-02-02 13:15:04.576 +03:30 [DBG] View lookup cache miss for view 'Index' in controller 'Movies'.
+2024-02-02 13:15:04.586 +03:30 [INF] Executing ViewResult, running view Index.
+2024-02-02 13:15:04.592 +03:30 [DBG] The view path '/Areas/Admin/Views/Movies/Index.cshtml' was found in 15.0364ms.
+2024-02-02 13:15:04.609 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-02 13:15:04.614 +03:30 [INF] Executed ViewResult - view Index executed in 37.9652ms.
+2024-02-02 13:15:04.622 +03:30 [INF] Executed action Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation) in 61.3362ms
+2024-02-02 13:15:04.636 +03:30 [INF] Executed endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:15:04.651 +03:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-02-02 13:15:04.665 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/Admin/Movies/Index - - - 200 - text/html;+charset=utf-8 203.6180ms
+2024-02-02 13:17:19.712 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-02 13:17:19.812 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewImports.cshtml'.
+2024-02-02 13:17:19.815 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewStart.cshtml'.
+2024-02-02 13:17:19.818 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-02 13:17:19.821 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-02 13:17:19.824 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-02 13:17:19.827 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-02 13:17:19.829 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-02 13:17:19.832 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-02 13:17:19.835 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-02 13:17:19.838 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-02 13:17:19.841 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-02 13:17:19.844 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-02 13:17:19.847 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-02 13:17:19.850 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-02 13:17:19.853 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-02 13:17:19.856 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-02 13:17:19.859 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-02 13:17:19.862 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-02 13:17:19.888 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-02 13:17:19.955 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-02 13:17:20.102 +03:30 [DBG] Hosting starting
+2024-02-02 13:17:20.112 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-02 13:17:20.131 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-02 13:17:20.136 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-02 13:17:20.142 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-02 13:17:20.146 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-02 13:17:20.151 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-02 13:17:20.156 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-02 13:17:20.171 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-02 13:17:20.181 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-02 13:17:20.186 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-02 13:17:20.189 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-02 13:17:20.192 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-02 13:17:20.196 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-02 13:17:20.200 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-02 13:17:20.220 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-02 13:17:20.229 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:17:20.239 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-02 13:17:20.244 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-02 13:17:20.257 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-02 13:17:20.264 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-02 13:17:20.270 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-02 13:17:20.274 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-02 13:17:20.452 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-02 13:17:20.456 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-02 13:17:20.460 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-02 13:17:20.462 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-02 13:17:20.465 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-02 13:17:20.470 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 13:17:20.472 +03:30 [INF] Hosting environment: Development
+2024-02-02 13:17:20.475 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-02 13:17:20.478 +03:30 [DBG] Hosting started
+2024-02-02 13:17:24.673 +03:30 [DBG] Connection id "0HN13QFQQTVEB" accepted.
+2024-02-02 13:17:24.678 +03:30 [DBG] Connection id "0HN13QFQQTVEB" started.
+2024-02-02 13:17:24.798 +03:30 [DBG] Connection 0HN13QFQQTVEB established using the following protocol: "Tls12"
+2024-02-02 13:17:24.931 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/Admin/Movies/Index - -
+2024-02-02 13:17:24.988 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-02 13:17:24.996 +03:30 [DBG] The request path /Admin/Movies/Index does not match a supported file type
+2024-02-02 13:17:25.084 +03:30 [DBG] 1 candidate(s) found for the request path '/Admin/Movies/Index'
+2024-02-02 13:17:25.103 +03:30 [DBG] Endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)' with route pattern '{area:exists}/{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Admin/Movies/Index'
+2024-02-02 13:17:25.111 +03:30 [DBG] Request matched endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:17:25.145 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:17:25.156 +03:30 [INF] Executing endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:17:25.216 +03:30 [INF] Route matched with {area = "Admin", action = "Index", controller = "Movies", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation).
+2024-02-02 13:17:25.227 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-02 13:17:25.232 +03:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:17:25.238 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-02-02 13:17:25.245 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-02 13:17:25.249 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-02-02 13:17:25.260 +03:30 [DBG] Executing controller factory for controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation)
+2024-02-02 13:17:25.266 +03:30 [DBG] Executed controller factory for controller Presentation.Areas.Admin.Controllers.MoviesController (Presentation)
+2024-02-02 13:17:25.280 +03:30 [DBG] View lookup cache miss for view 'Index' in controller 'Movies'.
+2024-02-02 13:17:25.301 +03:30 [INF] Executing ViewResult, running view Index.
+2024-02-02 13:17:25.312 +03:30 [DBG] The view path '/Areas/Admin/Views/Movies/Index.cshtml' was found in 27.0896ms.
+2024-02-02 13:17:25.378 +03:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Movies'.
+2024-02-02 13:17:25.552 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-02-02 13:17:25.579 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "area": "Admin", "controller": "Movies" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:17:25.591 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-02-02 13:17:25.598 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-02-02 13:17:25.611 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-02-02 13:17:25.618 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "area": "Admin", "controller": "Movies" } and { "action": "Index", "area": "", "controller": "Home" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:17:25.626 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-02-02 13:17:25.631 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-02-02 13:17:25.639 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Login],controller=[Account])
+2024-02-02 13:17:25.646 +03:30 [DBG] Failed to process the template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?}. A required route value is missing, or has a different value from the required default values. Supplied ambient values { "action": "Index", "area": "Admin", "controller": "Movies" } and { "action": "Login", "area": "", "controller": "Account" } with default values { "action": "Index", "controller": "Home" }
+2024-02-02 13:17:25.654 +03:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2024-02-02 13:17:25.659 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2024-02-02 13:17:25.664 +03:30 [DBG] Found the endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2024-02-02 13:17:25.671 +03:30 [DBG] Successfully processed template {area:exists}/{controller=Home}/{action=Index}/{id?} for Route: {area:exists}/{controller=Home}/{action=Index}/{id?} resulting in /Admin/Account/Register and 
+2024-02-02 13:17:25.677 +03:30 [DBG] Link generation succeeded for endpoints ["Route: {area:exists}/{controller=Home}/{action=Index}/{id?}","Route: {controller=Home}/{action=Index}/{id?}"] with result /Admin/Account/Register
+2024-02-02 13:17:25.912 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-02 13:17:25.973 +03:30 [DBG] Executing view component Presentation.GenresViewComponenet with arguments ([]).
+2024-02-02 13:17:26.697 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.712 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.721 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.730 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.738 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.745 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.758 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.766 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.774 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.781 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.788 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.808 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.847 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.855 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.861 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.868 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.877 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.882 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.890 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.896 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:26.962 +03:30 [DBG] For the relationship between dependent 'Movie.Genre' and principal 'Genre.Movies', the foreign key properties haven't been configured by convention because the best match {'GenreId' : string} are incompatible with the current principal key {'GenreId' : int}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2024-02-02 13:17:27.350 +03:30 [WRN] The foreign key property 'Movie.GenreId1' was created in shadow state because a conflicting property with the simple name 'GenreId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-02-02 13:17:27.769 +03:30 [DBG] Entity Framework Core 7.0.12 initialized 'Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.12' with options: NoTracking 
+2024-02-02 13:17:27.909 +03:30 [DBG] Compiling query expression: 
+'DbSet<Genre>()'
+2024-02-02 13:17:28.241 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Genre>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Genre.GenreId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Genre.GenreName (string) Required MaxLength(30), 1] }
+        SELECT g.GenreId, g.GenreName
+        FROM Genres AS g), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Genre>, 
+    DataLayer.Context, 
+    False, 
+    False, 
+    True
+)'
+2024-02-02 13:17:28.311 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-02 13:17:28.319 +03:30 [DBG] Creating DbConnection.
+2024-02-02 13:17:28.370 +03:30 [DBG] Created DbConnection. (43ms).
+2024-02-02 13:17:28.391 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (74ms).
+2024-02-02 13:17:28.400 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (91ms).
+2024-02-02 13:17:28.414 +03:30 [DBG] Opening connection to database 'MovieFans' on server '.'.
+2024-02-02 13:17:29.796 +03:30 [DBG] Opened connection to database 'MovieFans' on server '.'.
+2024-02-02 13:17:29.820 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[GenreId], [g].[GenreName]
+FROM [Genres] AS [g]
+2024-02-02 13:17:29.911 +03:30 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[GenreId], [g].[GenreName]
+FROM [Genres] AS [g]
+2024-02-02 13:17:29.958 +03:30 [DBG] Closing data reader to 'MovieFans' on server '.'.
+2024-02-02 13:17:29.975 +03:30 [DBG] A data reader for 'MovieFans' on server '.' is being disposed after spending 47ms reading results.
+2024-02-02 13:17:29.987 +03:30 [DBG] Closing connection to database 'MovieFans' on server '.'.
+2024-02-02 13:17:30.002 +03:30 [DBG] Closed connection to database 'MovieFans' on server '.' (15ms).
+2024-02-02 13:17:30.017 +03:30 [DBG] Executed view component Presentation.GenresViewComponenet in 4032.6136ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+2024-02-02 13:17:30.025 +03:30 [DBG] View lookup cache miss for view 'Components/GenresViewComponenet/Genres' in controller 'Movies'.
+2024-02-02 13:17:30.146 +03:30 [INF] Executed ViewResult - view Index executed in 4868.6811ms.
+2024-02-02 13:17:30.159 +03:30 [INF] Executed action Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation) in 4902.9482ms
+2024-02-02 13:17:30.164 +03:30 [INF] Executed endpoint 'Presentation.Areas.Admin.Controllers.MoviesController.Index (Presentation)'
+2024-02-02 13:17:30.180 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-02 13:17:30.201 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-02 13:17:30.233 +03:30 [DBG] 'Context' disposed.
+2024-02-02 13:17:30.252 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - -
+2024-02-02 13:17:30.252 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/HotNews.styles.css - -
+2024-02-02 13:17:30.262 +03:30 [DBG] The request path /HotNews.styles.css does not match an existing file
+2024-02-02 13:17:30.263 +03:30 [DBG] Disposing connection to database 'MovieFans' on server '.'.
+2024-02-02 13:17:30.269 +03:30 [DBG] No candidates found for the request path '/HotNews.styles.css'
+2024-02-02 13:17:30.277 +03:30 [DBG] Disposed connection to database '' on server '' (13ms).
+2024-02-02 13:17:30.278 +03:30 [DBG] Request did not match any endpoints
+2024-02-02 13:17:30.292 +03:30 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-02-02 13:17:30.294 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/Admin/Movies/Index - - - 200 - text/html;+charset=utf-8 5365.4353ms
+2024-02-02 13:17:30.297 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/HotNews.styles.css - - - 404 0 - 45.1340ms
+2024-02-02 13:17:30.297 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 42.6158ms
+2024-02-02 13:17:30.298 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7011/_vs/browserLink - -
+2024-02-02 13:17:30.384 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.7647ms
+2024-02-02 13:19:41.520 +03:30 [DBG] Connection id "0HN13QFQQTVEB" is closing.
+2024-02-02 13:19:41.527 +03:30 [DBG] Connection id "0HN13QFQQTVEB" is closed. The last processed stream ID was 7.
+2024-02-02 13:19:41.539 +03:30 [DBG] Connection id "0HN13QFQQTVEB" received FIN.
+2024-02-02 13:19:41.546 +03:30 [DBG] Connection id "0HN13QFQQTVEB" sending FIN because: "The client closed the connection."
+2024-02-02 13:19:41.547 +03:30 [DBG] The connection queue processing loop for 0HN13QFQQTVEB completed.
+2024-02-02 13:19:41.573 +03:30 [DBG] Connection id "0HN13QFQQTVEB" stopped.

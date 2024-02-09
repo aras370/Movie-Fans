@@ -1,0 +1,142 @@
+2024-02-04 21:07:42.202 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-04 21:07:42.300 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewImports.cshtml'.
+2024-02-04 21:07:42.304 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewStart.cshtml'.
+2024-02-04 21:07:42.306 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-04 21:07:42.308 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-04 21:07:42.313 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-04 21:07:42.315 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-04 21:07:42.317 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-04 21:07:42.319 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-04 21:07:42.321 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-04 21:07:42.323 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-04 21:07:42.325 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-04 21:07:42.328 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-04 21:07:42.330 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-04 21:07:42.332 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-04 21:07:42.334 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-04 21:07:42.336 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-04 21:07:42.339 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-04 21:07:42.341 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-04 21:07:42.376 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-04 21:07:42.478 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-04 21:07:42.802 +03:30 [DBG] Hosting starting
+2024-02-04 21:07:43.374 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-04 21:07:43.806 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-04 21:07:43.828 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-04 21:07:43.886 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-04 21:07:43.890 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-04 21:07:44.000 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-04 21:07:44.026 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-04 21:07:44.178 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-04 21:07:44.288 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-04 21:07:44.697 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-04 21:07:44.771 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-04 21:07:44.773 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-04 21:07:44.776 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-04 21:07:44.780 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-04 21:07:44.798 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-04 21:07:44.807 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-04 21:07:44.814 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-04 21:07:44.819 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-04 21:07:44.827 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-04 21:07:44.833 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-04 21:07:44.837 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-04 21:07:44.840 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-04 21:07:45.101 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-04 21:07:45.238 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-04 21:07:45.440 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-04 21:07:45.444 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-04 21:07:45.446 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-04 21:07:45.448 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-04 21:07:45.451 +03:30 [INF] Hosting environment: Development
+2024-02-04 21:07:45.453 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-04 21:07:45.456 +03:30 [DBG] Hosting started
+2024-02-04 21:08:54.726 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/Movies/Index.cshtml'.
+2024-02-04 21:08:54.803 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewImports.cshtml'.
+2024-02-04 21:08:54.805 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Admin/Views/_ViewStart.cshtml'.
+2024-02-04 21:08:54.808 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/ChangePassword.cshtml'.
+2024-02-04 21:08:54.810 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Edit.cshtml'.
+2024-02-04 21:08:54.812 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/UserPanel/Index.cshtml'.
+2024-02-04 21:08:54.814 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewImports.cshtml'.
+2024-02-04 21:08:54.816 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/_ViewStart.cshtml'.
+2024-02-04 21:08:54.819 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-02-04 21:08:54.821 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-02-04 21:08:54.823 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/SuccessFullRegister.cshtml'.
+2024-02-04 21:08:54.825 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-02-04 21:08:54.827 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-02-04 21:08:54.828 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Components/GenresViewComponenet/Genres.cshtml'.
+2024-02-04 21:08:54.831 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-02-04 21:08:54.833 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-02-04 21:08:54.835 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-02-04 21:08:54.837 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Pages/Shared/_Layout.cshtml'.
+2024-02-04 21:08:54.839 +03:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-02-04 21:08:54.855 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-04 21:08:54.905 +03:30 [INF] User profile is available. Using 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-04 21:08:55.034 +03:30 [DBG] Hosting starting
+2024-02-04 21:08:55.041 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-0ab37f0d-a2ca-44dd-97c4-ee7a8c306160.xml'.
+2024-02-04 21:08:55.054 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1827642a-eaac-4d94-bdf8-42165e76152a.xml'.
+2024-02-04 21:08:55.058 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-1e9bc763-13e2-4bef-8748-352c70a7b4b4.xml'.
+2024-02-04 21:08:55.061 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-34ed1ba1-2b60-44c0-a306-7259fe6c15ff.xml'.
+2024-02-04 21:08:55.064 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-470c97f0-5fda-4e28-b3c0-e102c2659054.xml'.
+2024-02-04 21:08:55.068 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-4b032efe-5385-41d6-9876-9ebc5d57c282.xml'.
+2024-02-04 21:08:55.072 +03:30 [DBG] Reading data from file 'C:\Users\Amazondigi.com\AppData\Local\ASP.NET\DataProtection-Keys\key-e76a2014-09e9-499f-9aa5-e8ad117c4b09.xml'.
+2024-02-04 21:08:55.080 +03:30 [DBG] Found key {0ab37f0d-a2ca-44dd-97c4-ee7a8c306160}.
+2024-02-04 21:08:55.092 +03:30 [DBG] Found key {1827642a-eaac-4d94-bdf8-42165e76152a}.
+2024-02-04 21:08:55.095 +03:30 [DBG] Found key {1e9bc763-13e2-4bef-8748-352c70a7b4b4}.
+2024-02-04 21:08:55.098 +03:30 [DBG] Found key {34ed1ba1-2b60-44c0-a306-7259fe6c15ff}.
+2024-02-04 21:08:55.102 +03:30 [DBG] Found key {470c97f0-5fda-4e28-b3c0-e102c2659054}.
+2024-02-04 21:08:55.104 +03:30 [DBG] Found key {4b032efe-5385-41d6-9876-9ebc5d57c282}.
+2024-02-04 21:08:55.107 +03:30 [DBG] Found key {e76a2014-09e9-499f-9aa5-e8ad117c4b09}.
+2024-02-04 21:08:55.123 +03:30 [DBG] Considering key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} with expiration date 2024-03-04 06:17:34Z as default key.
+2024-02-04 21:08:55.129 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-04 21:08:55.137 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-02-04 21:08:55.141 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-02-04 21:08:55.150 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-02-04 21:08:55.154 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-02-04 21:08:55.158 +03:30 [DBG] Using key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} as the default key.
+2024-02-04 21:08:55.161 +03:30 [DBG] Key ring with default key {e76a2014-09e9-499f-9aa5-e8ad117c4b09} was loaded during application startup.
+2024-02-04 21:08:55.360 +03:30 [INF] Now listening on: https://localhost:7011
+2024-02-04 21:08:55.393 +03:30 [INF] Now listening on: http://localhost:5138
+2024-02-04 21:08:55.397 +03:30 [DBG] Loaded hosting startup assembly Presentation
+2024-02-04 21:08:55.404 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-04 21:08:55.408 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-04 21:08:55.411 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-04 21:08:55.441 +03:30 [INF] Hosting environment: Development
+2024-02-04 21:08:55.453 +03:30 [INF] Content root path: C:\Users\Amazondigi.com\Desktop\Movie-Fans\MovieFans
+2024-02-04 21:08:55.459 +03:30 [DBG] Hosting started
+2024-02-04 21:08:55.529 +03:30 [DBG] Connection id "0HN15L0KIP7BQ" accepted.
+2024-02-04 21:08:55.529 +03:30 [DBG] Connection id "0HN15L0KIP7BR" accepted.
+2024-02-04 21:08:55.534 +03:30 [DBG] Connection id "0HN15L0KIP7BQ" started.
+2024-02-04 21:08:55.535 +03:30 [DBG] Connection id "0HN15L0KIP7BR" started.
+2024-02-04 21:08:58.477 +03:30 [DBG] Connection id "0HN15L0KIP7BQ" reset.
+2024-02-04 21:08:58.491 +03:30 [DBG] Connection id "0HN15L0KIP7BR" reset.
+2024-02-04 21:08:58.509 +03:30 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-02-04 21:08:58.516 +03:30 [DBG] Failed to authenticate HTTPS connection.
+Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-02-04 21:08:58.584 +03:30 [DBG] Connection id "0HN15L0KIP7BR" stopped.
+2024-02-04 21:08:58.589 +03:30 [DBG] Connection id "0HN15L0KIP7BQ" stopped.
+2024-02-04 21:08:58.597 +03:30 [DBG] Connection id "0HN15L0KIP7BQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-04 21:08:58.597 +03:30 [DBG] Connection id "0HN15L0KIP7BR" sending FIN because: "The Socket transport's send loop completed gracefully."

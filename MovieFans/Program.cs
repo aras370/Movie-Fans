@@ -18,6 +18,8 @@ using DataLayer.Models;
 using Application;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace MovieFans
 {
@@ -41,18 +43,26 @@ namespace MovieFans
             builder.Services.AddControllersWithViews();
 
 
-
-            builder.Services.AddDbContext<Context>(options =>
-            {
-                options.UseSqlServer(builder.Configuration["ConnectionString"]);
-                //options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"));
-                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
-            });
+            builder.Services.AddAuthorization(options =>
+              {
 
 
-            builder.Services.AddScoped<IUser, UserService>();
+                  options.AddPolicy("Admin", policy => 
+                  policy.RequireClaim(claimType: ClaimTypes.Role, "Admin"));
 
-            builder.Services.AddScoped<IGenre, GenreService>();
+
+                  options.AddPolicy("User", policy => 
+                  policy.RequireClaim(claimType: ClaimTypes.Role, "User"));
+
+                  options.AddPolicy("AdminOrUser", policy =>
+                  policy.RequireClaim(claimType: ClaimTypes.Role, "Admin","User"));
+
+                  //options.AddPolicy("UserOrAdmin", policy =>
+                  //    policy.RequireRole("User", "Admin"));
+
+                  // Add more policies as needed
+              });
+
 
 
 
@@ -68,6 +78,23 @@ namespace MovieFans
 
 
             });
+
+
+            builder.Services.AddDbContext<Context>(options =>
+            {
+                options.UseSqlServer(builder.Configuration["ConnectionString"]);
+                //options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"));
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+            });
+
+
+            builder.Services.AddScoped<IUser, UserService>();
+
+            builder.Services.AddScoped<IGenre, GenreService>();
+
+            builder.Services.AddScoped(typeof(IMovie), typeof(MovieService));
+
+
 
 
             builder.Services.AddRazorPages();

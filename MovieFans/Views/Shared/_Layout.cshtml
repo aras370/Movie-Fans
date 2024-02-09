@@ -34,7 +34,14 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Account" asp-action="Logout">خروج</a>
+                                <a class="nav-link text-dark" href="/Admin/Movies/Create">افزودن فیلم</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/Home/Privacy">حریم خصوصی</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">خروج</a>
                             </li>
                         </ul>
                     }
@@ -72,11 +79,10 @@
                 @RenderBody()
             </main>
         </div>
-       
+
     </div>
 
     <footer class=" footer text-muted fixed-bottom mb-5">
-       
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

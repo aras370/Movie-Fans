@@ -28,7 +28,7 @@ namespace Application.Services
             await _context.SaveChangesAsync();
         }
 
-       
+
 
         public async Task<bool> IsExistUser(RegisterViewModel user)
         {
@@ -50,12 +50,12 @@ namespace Application.Services
                 UserId = userId,
                 Email = u.Email,
             }).FirstOrDefaultAsync();
-           
+
         }
 
         public async Task EditUserByUser(EditUserByUserViewModel user)
         {
-            if (user.UserAvatar!=null)
+            if (user.UserAvatar != null)
             {
                 string imagePath = "";
                 if (user.AvatarName != "Defaulte.jpg")
@@ -74,8 +74,8 @@ namespace Application.Services
                 }
             }
 
-            var olduser =await GetUserById(user.UserId);
-            olduser.AvatarName=user.AvatarName;
+            var olduser = await GetUserById(user.UserId);
+            olduser.AvatarName = user.AvatarName;
             olduser.Email = user.Email;
             _context.Update(olduser);
             await _context.SaveChangesAsync();
@@ -88,10 +88,17 @@ namespace Application.Services
 
         public async Task ChangePasswordByUser(ChangePasswordViewModel Password)
         {
-            var user=await _context.Users.FindAsync(Password.UserId);
-            user.Password=Password.Password;
+            var user = await _context.Users.FindAsync(Password.UserId);
+            user.Password = Password.Password;
             _context.Update(user);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<string>> GetAllUserRoles(int userId)
+        {
+            return await _context.UserRoles.Where(ur => ur.UserId == userId).
+                Include(ur => ur.Role).Select(ur=>ur.Role.RoleName).ToListAsync();
+                
         }
     }
 }

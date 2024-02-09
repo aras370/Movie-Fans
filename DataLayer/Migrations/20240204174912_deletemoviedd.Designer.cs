@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20231217080026_deletetest")]
-    partial class deletetest
+    [Migration("20240204174912_deletemoviedd")]
+    partial class deletemoviedd
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,81 +49,6 @@ namespace DataLayer.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Comments");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.Genre", b =>
-                {
-                    b.Property<int>("GenreId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GenreId"));
-
-                    b.Property<string>("GenreName")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
-                    b.HasKey("GenreId");
-
-                    b.ToTable("Genres");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.Movie", b =>
-                {
-                    b.Property<int>("MovieId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MovieId"));
-
-                    b.Property<int>("DateOfMake")
-                        .HasMaxLength(30)
-                        .HasColumnType("int");
-
-                    b.Property<string>("GenreId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("GenreId1")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ImageName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MovieName")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
-                    b.HasKey("MovieId");
-
-                    b.HasIndex("GenreId1");
-
-                    b.ToTable("Movies");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.MovieCasts", b =>
-                {
-                    b.Property<int>("MovieCastId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MovieCastId"));
-
-                    b.Property<string>("CastName")
-                        .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
-
-                    b.Property<int>("MovieId")
-                        .HasColumnType("int");
-
-                    b.HasKey("MovieCastId");
-
-                    b.HasIndex("MovieId");
-
-                    b.ToTable("MovieCasts");
                 });
 
             modelBuilder.Entity("DataLayer.Models.Permission", b =>
@@ -272,26 +197,6 @@ namespace DataLayer.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DataLayer.Models.Movie", b =>
-                {
-                    b.HasOne("DataLayer.Models.Genre", "Genre")
-                        .WithMany("Movies")
-                        .HasForeignKey("GenreId1");
-
-                    b.Navigation("Genre");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.MovieCasts", b =>
-                {
-                    b.HasOne("DataLayer.Models.Movie", "Movie")
-                        .WithMany("MovieCasts")
-                        .HasForeignKey("MovieId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Movie");
-                });
-
             modelBuilder.Entity("DataLayer.Models.RolePermission", b =>
                 {
                     b.HasOne("DataLayer.Models.Permission", "Permission")
@@ -328,16 +233,6 @@ namespace DataLayer.Migrations
                     b.Navigation("Role");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.Genre", b =>
-                {
-                    b.Navigation("Movies");
-                });
-
-            modelBuilder.Entity("DataLayer.Models.Movie", b =>
-                {
-                    b.Navigation("MovieCasts");
                 });
 
             modelBuilder.Entity("DataLayer.Models.Permission", b =>

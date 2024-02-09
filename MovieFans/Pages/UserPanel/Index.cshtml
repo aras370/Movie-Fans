@@ -3,7 +3,7 @@
 @using System.Security.Claims
 
 @{
-    ViewData["Title"]= "پنل کاربری";
+    ViewData["Title"] = "پنل کاربری";
 }
 
 @*@{
@@ -39,4 +39,11 @@
 
 
 
-
+<div class="row">
+    <ul>
+        @foreach (var item in ViewData["roles"] as List<string>)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>

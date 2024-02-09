@@ -1,0 +1,39 @@
+﻿@model List<Movie>
+
+@{
+    ViewData["Title"] = "فیلم ها";
+}
+
+
+<div class="container mt-5">
+    <h3>فیلم ها</h3>
+    <hr />
+
+
+    <div class="row">
+
+        <div class="row">
+            <a class="btn btn-primary col col-auto mt-2 mb-3" asp-action="Create">فیلم جدید</a>
+        </div>
+
+       
+      @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="/MoviesImages/@item.ImageName" class="card-img-top" alt="Movie 1 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.MovieName</h5>
+                        <p class="card-text">ژانر:@item.Genre.GenreName</p>
+                        <p class="card-text">سال ساخت:@item.DateOfMake</p>
+                    </div>
+                </div>
+            </div>
+
+        }
+      
+
+    </div>
+</div>
+
+

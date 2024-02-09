@@ -13,8 +13,8 @@ namespace DataLayer.Models
         [Key]
         public int MovieId { get; set; }
 
-        [ForeignKey("Gener")]
-        public string GenreId { get; set; }
+        [ForeignKey("Genre")]
+        public int GenreId { get; set; }
 
         [Display(Name ="نام فیلم")]
         [MaxLength(30)]
@@ -22,8 +22,7 @@ namespace DataLayer.Models
 
         public string MovieName { get; set; }
 
-        [Required]
-        public string ImageName { get; set; }
+       
 
         [Required(ErrorMessage ="لطفا سال ساخت فیلم را وارد کنید")]
         [Display(Name ="سال ساخت")]
@@ -31,11 +30,15 @@ namespace DataLayer.Models
 
         public int DateOfMake { get; set; }
 
+        [Required]
+        public string ImageName { get; set; }
+
+
         #region Relations
 
         public Genre Genre { get; set; }
 
-        public IList<MovieCasts> MovieCasts { get; set; }
+        public List<MovieCasts> MovieCasts { get; set; }
 
         #endregion
 

@@ -1,0 +1,80 @@
+﻿@model CreateMovieViewModel
+
+
+@{
+    ViewData["Title"] = "افزودن فیلم";
+ //   ViewData["Category"] = new SelectList(_categoryService.GetCategories(), "CategoryId", "Name");
+}
+
+
+<div class="row container mt-2">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GenreId" class="control-label"> انتخاب ژانر(کلیک کنید) </label>
+                <select asp-for="GenreId" class="form-control mt-2" asp-items="@ViewBag.Genres as SelectList"></select>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="MovieName" class="control-label"></label>
+                <input asp-for="MovieName" class="form-control" />
+                <span asp-validation-for="MovieName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <label asp-for="DateOfMake" class="control-label"></label>
+                <input asp-for="DateOfMake" class="form-control" type="number" />
+                <span asp-validation-for="DateOfMake" class="text-danger"></span>
+            </div>
+
+
+            <pre></pre>
+            <div class="row mt-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">عکس</label>
+                <img id="img" src="/MoviesImages/NoPhoto.png" style="height:200px;width:200px;" />
+            </div>
+
+
+            <div class="form-group mt-3">
+                <label class="control-label">انتخاب عکس</label>
+                <pre></pre>
+                <input id="MovieAvatar" asp-for="MovieAvatar" class="form-control" type="file" />
+                <span asp-validation-for="MovieAvatar" class="text-danger"></span>
+            </div>
+
+
+
+            @*<div asp-validation-summary="All">
+
+            </div>*@
+
+            <div class="form-group" style="margin-top:20px;">
+                <input type="submit" value="افزودن فیلم" class="btn btn-success" />
+                <a class="btn btn-primary" href="/Admin/Movies/Index">بازگشت</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts{
+    <script>
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    $('#img').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#MovieAvatar").change(function () {
+            readURL(this);
+        });
+    </script>
+}
